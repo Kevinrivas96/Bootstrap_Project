@@ -1,27 +1,43 @@
-
-header{
+header {
   background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
   height: auto;
 }
-li,ul, p, h1,h2,h3,h4,button, a{
+
+li,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+button,
+a {
   font-family: 'Cabin', sans-serif;
 }
+
 .navbar-nav .nav-link {
-    margin-right: 20px; /* Adjust the margin as needed */
-  }
-/* Carrosel styling  */
-.main01{
-    padding: 2%;
+  margin-right: 20px;
+  /* Adjust the margin as needed */
 }
-ul{
+
+/* Carrosel styling  */
+.main01 {
+  padding: 2%;
+}
+
+ul {
   list-style: none;
 }
+
 .carousel-item img {
-    height: 450px; /* Set the desired height */    
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-  }
-  /* icons style */
-.icons{
+  height: 450px;
+  /* Set the desired height */
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the container */
+}
+
+/* icons style */
+.icons {
   height: 32px;
   width: 32px;
   margin-bottom: 16px;
@@ -29,68 +45,83 @@ ul{
   background-color: #f4f4f4;
   padding: 6px;
 }
-.icons2{
+
+.icons2 {
   height: 26px;
   width: 26px;
 }
-.icons3{
+
+.icons3 {
   height: 36px;
   width: 36px;
 }
 
-.icons3:hover{
+.icons3:hover {
   color: #075423;
   cursor: pointer;
 }
-.icons4{
+
+.icons4 {
   height: 26px;
   width: 26px;
 }
-.icons4:hover{
+
+.icons4:hover {
   color: #075423;
-  cursor: pointer;   
+  cursor: pointer;
   height: 28px;
   width: 28px;
 }
-#blue-bg {   
+
+#blue-bg {
   color: #0a58ca;
   text-shadow: 2px 2px 2px #f4f4f4;
   font-size: 60px;
 }
-.blue-bg2{
+
+.blue-bg2 {
   background-image: linear-gradient(180deg, #6282e2 18%, #b488da 84%);
 }
-.blue-bg3{
+
+.blue-bg3 {
   background-image: linear-gradient(180deg, #879bd9 18%, #cdaee9 84%);
   border-radius: 10%;
   padding: 10px;
-  
+
 }
-footer{
-  height: auto;  
+
+footer {
+  height: auto;
+  max-width: 100vw;
   background-color: #93acfc;
-   
+
 }
-.hoverEffect{
-  transition: text-decoration 3s ease; 
+
+.hoverEffect {
+  transition: text-decoration 3s ease;
 }
-.hoverEffect:hover{   
+
+.hoverEffect:hover {
   text-decoration: underline;
-   
+
 }
-.hoverEffect2{
-  transition: box-shadow 2s ease; 
-  transition: transform 1s ease; 
+
+.hoverEffect2 {
+  transition: box-shadow 2s ease;
+  transition: transform 1s ease;
 }
-.hoverEffect2:hover{
+
+.hoverEffect2:hover {
   box-shadow: 20px 20px 30px #6282e2;
   transform: scale(1.05);
 }
-.hoverEffect3{
-  transition: box-shadow 2s ease; 
-  transition: transform 1s ease; 
+
+.hoverEffect3 {
+  transition: box-shadow 2s ease;
+  transition: transform 1s ease;
 }
-.hoverEffect3:hover{
+
+.hoverEffect3:hover {
   box-shadow: 10px 10px 20px #4bad6f;
   transform: scale(1.05);
 }
